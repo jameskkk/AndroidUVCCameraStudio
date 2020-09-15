@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabi_v7aRelease/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabi_v7aRelease\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabi_v7aRelease/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabi_v7aRelease\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "webcam-armeabi_v7aRelease-armeabi-v7a": {
+      "artifactName": "webcam",
+      "buildCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabi_v7aRelease/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabi_v7aRelease\\lib D:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabi_v7aRelease/obj/local/armeabi-v7a/libwebcam.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabi_v7aRelease\\obj\\local\\armeabi-v7a\\libwebcam.so",
+      "runtimeFiles": []
+    }
+  }
+}

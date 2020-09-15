@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("GMT+08:00"))
+}
+
+android {
+//    ndkVersion '21.3.6528147'
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.ford.openxc.webcam"
+        minSdkVersion 10
+        targetSdkVersion 30
+        versionCode 2
+        versionName "1.0.2"
+        flavorDimensions "versionCode"
+
+        ndk {
+            moduleName "webcam"
+            ldLibs "log"
+            ldLibs "jnigraphics"
+            cFlags "-std=c99"
+        }
+
+        sourceSets {
+            main {
+                jniLibs.srcDirs = ['libs']
+            }
+        }
+
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+
+    productFlavors {
+//        armeabi {
+//            manifestPlaceholders = [channel: "armeabi"]
+//            ndk {
+//                abiFilter "armeabi"
+//            }
+//        }
+
+        armeabi_v7a {
+            manifestPlaceholders = [channel: "armeabi-v7a"]
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+        }
+
+        arm64_v8a {
+            manifestPlaceholders = [channel: "arm64_v8a"]
+            ndk {
+                abiFilter "arm64-v8a"
+            }
+        }
+
+        x86 {
+            manifestPlaceholders = [channel: "x86"]
+            ndk {
+                abiFilter "x86"
+            }
+        }
+
+        x86_64 {
+            manifestPlaceholders = [channel: "x86_64"]
+            ndk {
+                abiFilter "x86_64"
+            }
+        }
+    }
+
+
+    //自定義安裝包名稱
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            output.outputFile = new File(
+//                    output.outputFile.parent + "/${variant.buildType.name}", "webcam-${variant.buildType.name}-v${variant.versionName}-${variant.productFlavors[0].name}-${releaseTime()}.apk".toLowerCase())
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+}
+
+
+
+dependencies {
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation 'com.github.zhaokaiqiang.klog:library:1.6.0'
+}

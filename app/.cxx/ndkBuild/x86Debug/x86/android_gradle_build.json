@@ -1,0 +1,50 @@
+{
+  "buildFiles": [
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86Debug/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86Debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86Debug/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86Debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "webcam-x86Debug-x86": {
+      "buildCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86Debug/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86Debug\\lib D:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86Debug/obj/local/x86/libwebcam.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "webcam",
+      "files": [
+        {
+          "src": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\capture.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -DANDROID -std\u003dc99 -nostdinc++ -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\util.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -DANDROID -std\u003dc99 -nostdinc++ -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\video_device.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -DANDROID -std\u003dc99 -nostdinc++ -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\webcam.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -DANDROID -std\u003dc99 -nostdinc++ -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\yuv.c",
+          "flags": "-target i686-none-linux-android16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -ID:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/src/main/jni -DANDROID -std\u003dc99 -nostdinc++ -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86Debug\\obj\\local\\x86\\libwebcam.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

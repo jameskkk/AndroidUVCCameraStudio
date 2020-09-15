@@ -1,0 +1,56 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: armeabi",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\armeabiDebug\\armeabi\\android_gradle_build.json due to:",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\armeabiDebug\\armeabi\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\armeabiDebug\\armeabi\\build_command.txt, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\armeabiDebug\\armeabi\u0027",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darmeabi\nNDK_ALL_ABIS\u003darmeabi\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabiDebug/obj\nNDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabiDebug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darmeabi\nNDK_ALL_ABIS\u003darmeabi\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabiDebug/obj\nNDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabiDebug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/armeabiDebug/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\armeabiDebug\\lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nAndroid NDK: INTERNAL ERROR: The armeabi ABI should have exactly one architecture definitions. Found: \u0027\u0027    \n\nD:/SDK/AndroidStudioSDK/Sdk/ndk/21.3.6528147/build//../build/core/init.mk:487: *** Android NDK: Aborting...    .  Stop.\n",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "armeabiDebug|armeabi"
+  }
+]

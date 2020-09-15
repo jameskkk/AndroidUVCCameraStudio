@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Release/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Release\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Release/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "webcam-x86_64Release-x86_64": {
+      "artifactName": "webcam",
+      "buildCommand": "D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Release/obj NDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Release\\lib D:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Release/obj/local/x86_64/libwebcam.so",
+      "abi": "x86_64",
+      "output": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Release\\obj\\local\\x86_64\\libwebcam.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <com.ford.openxc.webcam.webcam.WebcamPreview
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    <EditText
+        android:id="@+id/et_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/dev/video0"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/bt_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_video"
+        android:text="开始预览"
+        android:visibility="gone"
+        />
+</RelativeLayout>

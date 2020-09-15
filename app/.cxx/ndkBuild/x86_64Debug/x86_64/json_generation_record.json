@@ -1,0 +1,86 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\\android_gradle_build.json due to:",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\\build_command.txt, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\u0027",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Debug/obj\nNDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Debug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : D:\\SDK\\AndroidStudioSDK\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/John_Projects/Github/AndroidUVCCameraSamples/AndroidUVCCameraDemo/app/build/intermediates/ndkBuild/x86_64Debug/obj\nNDK_LIBS_OUT\u003dD:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\build\\intermediates\\ndkBuild\\x86_64Debug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\\build_output.txt",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Application.mk",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\.cxx\\ndkBuild\\x86_64Debug\\x86_64\\build_command.txt",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\John_Projects\\Github\\AndroidUVCCameraSamples\\AndroidUVCCameraDemo\\app\\src\\main\\jni\\Android.mk",
+    "tag": "x86_64Debug|x86_64"
+  }
+]
